@@ -1,0 +1,129 @@
+baseURL = "https://gmc-landscapes.com/"
+languageCode = "en-us"
+title = "GMC Landscapes | Outdoor Livingspace Dreams"
+theme = "perso"
+summaryLength = "10"
+paginate = 6
+
+[outputs]
+  home = ["HTML", "AMP"]
+  page = ["HTML"]
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/headroom/headroom.js"
+  [[params.plugins.js]]
+  URL = "plugins/instafeed/instafeed.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/masonry/masonry.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/smooth-scroll/smooth-scroll.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+
+
+# navigation
+[menu]
+  [[menu.main]]
+  name = "Contact us"
+  URL = "contact"
+  weight = 2
+
+  [[menu.main]]
+  name = "About us"
+  URL = "about"
+  weight = 3
+
+
+
+[params]
+logo = "images/logo.png"
+home = "Home"
+# hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
+homeLayoutToggle = true
+# Meta data
+description = "GMC Landscapes is here to help you create the outdoor living space of your dreams. Let us work with you to design a deck, outdoor kitchen or water feature for summer entertainment or freshen up the exterior and add value to your home with paver stone walkways, stylish retaining walls, and many other upgrades. We offer complementary estimates for your project"
+# about author
+author = "GMC Landscapes"
+authorImage = "images/banner-img.png"
+shortDescription = "GMC Landscapes, builds your outdoor living dreams"
+# Contact Form Action
+contactFormAction = "mailto:elias@gmc-landscapes.com"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# copyright
+copyright = "GMC Landscapes, theme by [themefisher.com](themefisher.com)"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  # search
+  [params.search]
+  enable = false
+
+  # Instagram feed
+  # [params.instafeed]
+  # enable = true
+  # userID = "4044026246"
+  # accessToken = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
+
+  # footer
+  [params.footer]
+
+    #address
+    [[params.footer.addresses]]
+    address = "GMC Landscapes"
+
+    [[params.footer.addresses]]
+    address = "License ####"
+
+
+    #contact information
+    [[params.footer.contacts]]
+    contactInfo = "Tel: (425) 555 1234"
+
+    [[params.footer.contacts]]
+    contactInfo = "Mail: <a href='mailto:elias@gmc-landscapes.com?subject=Request%20for%20information'>elias@gmc-landscapes.com</a>"
+
+
+  # social site
+  [[params.social]]
+  icon = "ti-facebook"
+  URL = "#"
+
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  URL = "#"
+
+  [[params.social]]
+  icon = "ti-linkedin"
+  URL = "#"
+
+  [[params.social]]
+  icon = "ti-github"
+  URL = "#"
