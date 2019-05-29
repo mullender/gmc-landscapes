@@ -4,6 +4,8 @@ title = "GMC Landscapes | Outdoor Livingspace Dreams"
 theme = "perso"
 summaryLength = "10"
 paginate = 6
+RelativeURLs=true
+CanonifyURLs=true
 
 [outputs]
   home = ["HTML", "AMP"]
